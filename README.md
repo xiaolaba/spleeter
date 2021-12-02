@@ -21,7 +21,14 @@ pip3 install llvmlite
 pip3 install ffmpeg libsndfile
 pip3 install tensorflow-cpu
 
+# install spleeter with pip
 pip3 install spleeter
+
+# download an example audio file (if you don't have wget, use another tool for downloading)
+wget https://github.com/deezer/spleeter/raw/master/audio_example.mp3
+
+# separate the example audio into two components
+spleeter separate -p spleeter:2stems -o output audio_example.mp3
 
 
 ```
