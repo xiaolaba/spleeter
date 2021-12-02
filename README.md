@@ -29,6 +29,13 @@ pip3 install spleeter
 error, avx or illegal instruction.
 
 
+try, and reboot,
+```
+bcdedit /set xsavedisable 0
+bcdedit /set xsavedisable 1
+bcdedit /set xsavedisable 0
+```
+
 
 
 
