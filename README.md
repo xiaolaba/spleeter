@@ -36,12 +36,14 @@ spleeter separate -p spleeter:2stems -o output audio_example.mp3
 error, avx or illegal instruction.
 
 
-try, and reboot,
+try, other VM, and reboot,
 ```
 bcdedit /set xsavedisable 0
 bcdedit /set xsavedisable 1
 bcdedit /set xsavedisable 0
 ```
+same error,
+![xiaolaba_NG/spleeter_NG.JPG](xiaolaba_NG/spleeter_NG.JPG)    
 
 
 
